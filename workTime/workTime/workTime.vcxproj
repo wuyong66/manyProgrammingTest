@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0A4EBCB9-5555-49B4-BD94-A8CB5B7B4D2E}</ProjectGuid>
+    <ProjectGuid>{EB2D043C-F52A-40CD-B69A-08B1BF3BCAF9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TwoCar</RootNamespace>
+    <RootNamespace>workTime</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,7 +78,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="workTime.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\readme.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
